@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+}
+a {
+    text-decoration: none;
+}
+header{
+    color: #efffff;
+    background:#353535;
+
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+header > ul {
+    display: flex;
+    list-style:None;
+    margin: 0;
+}
+header > ul a{
+    color: #ffffff;
+    padding-right: 2rem;
+}
+main {
+    margin:0 auto;
+    max-width: 1140px;
+}
+main > ul h4 {
+    color: #0a06ee;
+    }
